@@ -95,7 +95,7 @@ public class MainActivity extends AppCompatActivity {
         if(userNumber==number){
 
             Score++;
-            scoreTxt.setText("You have guessed correctly this many times: "+Score);//displays score to user
+            scoreTxt.setText("You have guessed correctly this many times: "+Score);//displays score to use
             userMsg.setText("Congratulations! You guessed the dice number!");
             userInput.getText().clear();
         }
